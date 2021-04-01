@@ -10,6 +10,7 @@ fetch("https://ipinfo.io/json?token=c3220d5b0e7c41").then(
 
     document.getElementById("ipaddress").innerHTML = jsonResponse.ip
     document.getElementById("location").innerHTML = jsonResponse.region
+    document.getElementById("city").innerHTML = jsonResponse.city
 
   }
 )
